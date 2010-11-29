@@ -187,3 +187,9 @@
 [submodule "Gists.tmbundle"]
 	path = Gists.tmbundle
 	url = git://github.com/ivanvc/gists-tmbundle.git
+[submodule "javascript-tools.tmbundle"]
+	path = javascript-tools.tmbundle
+	url = http://github.com/subtleGradient/javascript-tools.tmbundle.git
+[submodule "json.tmbundle"]
+	path = json.tmbundle
+	url = http://github.com/textmate/json.tmbundle.git

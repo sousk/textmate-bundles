@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>MiniNation</string>
+	<key>ordering</key>
+	<array>
+		<string>9C3AEAA0-063A-4ECE-96ED-1375D516AEE2</string>
+		<string>1A65EF99-88EC-4357-8880-8B836C12A710</string>
+		<string>8C8F77EA-26C6-46F3-B6EE-C7BB02B16F79</string>
+		<string>78D2288A-98D4-489D-A8C4-5E7080D06826</string>
+		<string>AF093BD0-76A2-4494-AC69-B8FBFC537FA4</string>
+		<string>03F54896-72BC-4FF8-BB5C-7FF263C514EF</string>
+		<string>83A74E02-7D82-47F3-B5D0-46D29BD4A25E</string>
+	</array>
+	<key>uuid</key>
+	<string>9FA38175-D2C5-4875-967F-75D447A8988D</string>
+</dict>
+</plist>

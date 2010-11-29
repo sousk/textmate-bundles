@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+lc = ENV['LOCAL_PROJECT_ROOT']
+rm = ENV['REMOTE_PROJECT_ROOT']
+f = ENV['TM_FILEPATH']
+path = f.sub lc, rm
+
+exec "ssh #{ENV['REMOTE_SSH_NAME']} perl -c #{path}"
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^@v</string>
+	<key>name</key>
+	<string>Perl: validate</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.perl</string>
+	<key>uuid</key>
+	<string>83A74E02-7D82-47F3-B5D0-46D29BD4A25E</string>
+</dict>
+</plist>

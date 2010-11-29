@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>use CGI;
+use Data::Dumper::HTML qw(dumper_html);
+print CGI::header();
+print qq{&lt;div style="font-family: monospace"&gt;\n};
+print dumper_html(${1:\$rhData});
+die();
+$0</string>
+	<key>name</key>
+	<string>debug: html-dump</string>
+	<key>scope</key>
+	<string>source.perl</string>
+	<key>tabTrigger</key>
+	<string>htmldump</string>
+	<key>uuid</key>
+	<string>78D2288A-98D4-489D-A8C4-5E7080D06826</string>
+</dict>
+</plist>
