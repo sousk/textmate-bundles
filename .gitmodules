@@ -193,3 +193,6 @@
 [submodule "json.tmbundle"]
 	path = json.tmbundle
 	url = http://github.com/textmate/json.tmbundle.git
+[submodule "github-tmbundle"]
+	path = github-tmbundle
+	url = https://github.com/drnic/github-tmbundle.git
