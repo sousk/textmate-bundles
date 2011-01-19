@@ -191,5 +191,8 @@
 	path = json.tmbundle
 	url = http://github.com/textmate/json.tmbundle.git
 [submodule "github-tmbundle"]
-	path = github-tmbundle
+	path = github.tmbundle
 	url = https://github.com/drnic/github-tmbundle.git
+[submodule "javascript-jsdoc-tmbundle"]
+	path = javascript-jsdoc.tmbundle
+	url = https://github.com/tysontate/javascript-jsdoc-tmbundle.git
