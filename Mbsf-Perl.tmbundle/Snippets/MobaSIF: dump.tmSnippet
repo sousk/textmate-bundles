@@ -5,12 +5,13 @@
 	<key>content</key>
 	<string>use CGI;
 use Data::Dump qw/dump/;
+use Carp qw/confess/;
 print CGI::header();
 print "//dump start\n";
 print "&lt;pre&gt;";
 print dump(${1:obj}), "\n";
 print"//dump end\n";
-die();
+confess "die";
 $0</string>
 	<key>name</key>
 	<string>debug: dump</string>

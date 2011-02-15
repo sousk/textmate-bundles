@@ -11,6 +11,7 @@ host = ENV['REMOTE_SSH_NAME']
 
 puts "reboot HTTPd on #{host} :: #{cmd}"
 system "ssh root@#{host} #{cmd}"
+# puts "ssh root@#{host} #{cmd}"
 </string>
 	<key>input</key>
 	<string>none</string>
