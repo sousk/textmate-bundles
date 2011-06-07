@@ -178,9 +178,6 @@
 [submodule "Ruby Sass.tmbundle"]
 	path = Ruby Sass.tmbundle
 	url = git://github.com/charlesr/ruby-sass-tmbundle.git
-[submodule "CoffeeScript.tmbundle"]
-	path = CoffeeScript.tmbundle
-	url = https://github.com/jashkenas/coffee-script-tmbundle.git
 [submodule "Gists.tmbundle"]
 	path = Gists.tmbundle
 	url = git://github.com/ivanvc/gists-tmbundle.git
@@ -196,6 +193,6 @@
 [submodule "javascript-jsdoc-tmbundle"]
 	path = javascript-jsdoc.tmbundle
 	url = https://github.com/tysontate/javascript-jsdoc-tmbundle.git
-[submodule "coffee-script-tmbundle"]
-	path = coffee-script-tmbundle
+[submodule "coffee-script.tmbundle"]
+	path = coffee-script.tmbundle
 	url = https://github.com/jashkenas/coffee-script-tmbundle.git
