@@ -5,23 +5,16 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby
-cmd = ENV['CMD_HTTPD_RESTART'] || "service httpd restart"
-host = ENV['REMOTE_SSH_NAME'] || 'gwdev045'
-
-puts "reboot HTTPd on #{host} :: #{cmd}"
-system "ssh root@#{host} #{cmd}" 
-puts "ssh root@#{host} #{cmd}"
-</string>
+	<string>python "$TM_BUNDLE_SUPPORT"/runner.py next_edit_point</string>
 	<key>input</key>
-	<string>none</string>
+	<string>document</string>
 	<key>keyEquivalent</key>
-	<string>^~@r</string>
+	<string>^~</string>
 	<key>name</key>
-	<string>remote: HTTPd reboot</string>
+	<string>Next Edit Point</string>
 	<key>output</key>
 	<string>showAsTooltip</string>
 	<key>uuid</key>
-	<string>9C3AEAA0-063A-4ECE-96ED-1375D516AEE2</string>
+	<string>FB08A10D-F5C9-4D60-9A02-856835FFF42E</string>
 </dict>
 </plist>

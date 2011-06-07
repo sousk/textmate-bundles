@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+file = ENV['TM_FILEPATH']
+
+if file =~ /\.t$/
+  local = ENV['LOCAL_PROJECT_ROOT']
+  remote = ENV['REMOTE_PROJECT_ROOT']
+  path = file.sub local, remote
+else
+  local = ENV['TEST_LOCAL_DIR']
+  remote = ENV['TEST_REMOTE_DIR']
+  path = file.sub local, remote
+  path.chomp! '.pm'
+end
+
+
+exec "ssh #{ENV['REMOTE_SSH_NAME']} prove #{path}"
+# puts "ssh #{ENV['REMOTE_SSH_NAME']} 'prove #{path}'"
+</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^@d</string>
+	<key>name</key>
+	<string>Perl: prove</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.perl</string>
+	<key>uuid</key>
+	<string>BAC2E05B-0224-4BDB-92C1-EA666EBAB1F6</string>
+</dict>
+</plist>
