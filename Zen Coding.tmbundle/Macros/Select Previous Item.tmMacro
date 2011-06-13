@@ -30,8 +30,6 @@
 			<string>findNext:</string>
 		</dict>
 	</array>
-	<key>keyEquivalent</key>
-	<string>@[</string>
 	<key>name</key>
 	<string>Select Previous Item</string>
 	<key>uuid</key>

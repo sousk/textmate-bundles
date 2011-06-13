@@ -33,7 +33,7 @@
 			<key>argument</key>
 			<dict>
 				<key>beforeRunningCommand</key>
-		 		<string>nop</string>
+				<string>nop</string>
 				<key>command</key>
 				<string>python "$TM_BUNDLE_SUPPORT"/applescript.py</string>
 				<key>input</key>
@@ -51,8 +51,6 @@
 			<string>executeCommandWithOptions:</string>
 		</dict>
 	</array>
-	<key>keyEquivalent</key>
-	<string>^@r</string>
 	<key>name</key>
 	<string>Reflect CSS Value</string>
 	<key>uuid</key>
