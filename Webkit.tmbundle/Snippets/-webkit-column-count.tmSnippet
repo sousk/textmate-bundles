@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-count: ${1:auto|intger_non_negative_values};</string>
+	<key>name</key>
+	<string>-webkit-column-count</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkcolcount</string>
+	<key>uuid</key>
+	<string>37CC12EC-469D-4175-93BC-45B1FD149143</string>
+</dict>
+</plist>

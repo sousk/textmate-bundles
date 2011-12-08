@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+# Comments must be restricted to a single line
+# You can use absolute or relative paths from the location of this file
+# to serve images, CSS, JS that you want cached
+
+# This file must be served as mime-type: text/cache-manifest
+# Append to HTML element in your pages
+# <html manifest="${TM_NEW_FILE_BASENAME}.manifest">
+

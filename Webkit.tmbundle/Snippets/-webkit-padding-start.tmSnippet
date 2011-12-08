@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-padding-start: ${1:0px};</string>
+	<key>name</key>
+	<string>-webkit-padding-start</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkpadstart</string>
+	<key>uuid</key>
+	<string>B50C8AAC-59A1-49BC-A768-DB5DD18D933D</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-reflect: ${1:below} ${2:1px} ${3:-webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white))};</string>
+	<key>name</key>
+	<string>-webkit-box-reflect</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkboxreflect</string>
+	<key>uuid</key>
+	<string>B658B57D-2C69-452F-B0B6-3FBF48B8C23D</string>
+</dict>
+</plist>

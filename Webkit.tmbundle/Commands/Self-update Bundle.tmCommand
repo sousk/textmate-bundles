@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+
+LC_CTYPE=en_US.UTF-8
+TM_SVN=`which svn`
+
+# Check if the TM_SVN environment variable is set
+# If not, it probably means Subversion is not installed
+
+# DEBUG: Print out svn location
+# echo ${TM_SVN}
+# echo $HOME
+
+if [ -z "${TM_SVN}" ]; then
+  echo "You must define the location of your svn client in the variable TM_SVN."
+  exit 1
+fi
+
+# Change to bundles directory
+echo "Changing to Bundles directory..."
+mkdir -p $HOME/Library/Application\ Support/TextMate/Bundles/Webkit.tmbundle
+cd $HOME/Library/Application\ Support/TextMate/Bundles/Webkit.tmbundle
+
+# DEBUG: Print out current working directory
+# pwd
+
+if [ -d $HOME/Library/Application\ Support/TextMate/Bundles/Webkit.tmbundle ]; then
+  echo "Webkit bundle already exists - updating..."
+  $TM_SVN up
+else
+  echo "Checking out Webkit bundle..."
+  $TM_SVN co http://webkit-css3-bundle.googlecode.com/svn/trunk/Webkit.tmbundle
+fi
+
+echo "Reloading bundles in TextMate..."
+osascript -e 'tell app "TextMate" to reload bundles'
+
+exit 0</string>
+	<key>input</key>
+	<string>none</string>
+	<key>name</key>
+	<string>Self-update Bundle</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>5109066E-7F1D-4991-A3E5-D57E4A1F7378</string>
+</dict>
+</plist>

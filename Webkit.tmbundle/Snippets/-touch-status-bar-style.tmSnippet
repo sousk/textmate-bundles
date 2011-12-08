@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta name="apple-mobile-web-app-status-bar-style" content="${1:black:black-translucent}"${TM_XHTML}&gt;</string>
+	<key>name</key>
+	<string>-touch-status-bar-style</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>statusbar</string>
+	<key>uuid</key>
+	<string>DB9A28C3-0992-4A7A-B7B1-D2D29F609DE6</string>
+</dict>
+</plist>

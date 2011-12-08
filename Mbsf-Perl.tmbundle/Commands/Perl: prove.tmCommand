@@ -21,7 +21,7 @@ else
 end
 
 
-exec "ssh #{ENV['REMOTE_SSH_NAME']} prove #{path}"
+exec "ssh #{ENV['REMOTE_SSH_NAME']} prove -v #{path}"
 # puts "ssh #{ENV['REMOTE_SSH_NAME']} 'prove #{path}'"
 </string>
 	<key>input</key>
@@ -31,7 +31,7 @@ exec "ssh #{ENV['REMOTE_SSH_NAME']} prove #{path}"
 	<key>name</key>
 	<string>Perl: prove</string>
 	<key>output</key>
-	<string>showAsTooltip</string>
+	<string>openAsNewDocument</string>
 	<key>scope</key>
 	<string>source.perl</string>
 	<key>uuid</key>

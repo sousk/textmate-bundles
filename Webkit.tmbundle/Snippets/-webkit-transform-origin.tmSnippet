@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform-origin: ${1:percentage|length|top|center|bottom|right|center|left|};</string>
+	<key>name</key>
+	<string>-webkit-transform-origin</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wktransformorigin</string>
+	<key>uuid</key>
+	<string>010E0A05-D21A-47FF-9DE6-D04415030ACE</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;link rel="apple-touch-startup-image" href="$1"${TM_XHTML}&gt;</string>
+	<key>name</key>
+	<string>-touch-startup-image</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>startup</string>
+	<key>uuid</key>
+	<string>8FC6434D-1BBF-42B6-B190-F424D5D25608</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-marquee-increment: ${1:distance_value|large|medium|small};	</string>
+	<key>name</key>
+	<string>-webkit-marquee-increment</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmarqueeincrement</string>
+	<key>uuid</key>
+	<string>3625AA63-C6CE-4C06-96C4-F760DE716F7D</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-sizing: ${1:border-box|content-box};</string>
+	<key>name</key>
+	<string>-webkit-box-sizing</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkboxsizing</string>
+	<key>uuid</key>
+	<string>2C2B4058-7078-4FE2-B7E7-F84600CBB951</string>
+</dict>
+</plist>

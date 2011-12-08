@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-text-security: ${1:circle|disc|none|square};</string>
+	<key>name</key>
+	<string>-webkit-text-security</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wktextsecurity</string>
+	<key>uuid</key>
+	<string>59EE17C2-D980-4A5E-942E-106BB74EED67</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-background-origin: ${1:border|padding|none};</string>
+	<key>name</key>
+	<string>-webkit-background-origin</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkbgorigin</string>
+	<key>uuid</key>
+	<string>64CBF729-8DF3-490E-A202-23BA2367BB38</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-border-horizontal-spacing: ${1:0px};</string>
+	<key>name</key>
+	<string>-webkit-border-horizontal-spacing</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkbordhspacing</string>
+	<key>uuid</key>
+	<string>945B488E-E10A-419D-BB17-D6815E970BFC</string>
+</dict>
+</plist>

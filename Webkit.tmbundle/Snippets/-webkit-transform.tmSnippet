@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform: ${1:transform_function_list(see: http://developer.apple.com/webapps/docs_iphone/documentation/iPhone/Conceptual/SafariCSSTransformGuide/TransformFunctions/chapter_6_section_1.html)};</string>
+	<key>name</key>
+	<string>-webkit-transform</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wktransform</string>
+	<key>uuid</key>
+	<string>B3CFFCA3-7CC6-4317-954F-F6D1066F72C6</string>
+</dict>
+</plist>

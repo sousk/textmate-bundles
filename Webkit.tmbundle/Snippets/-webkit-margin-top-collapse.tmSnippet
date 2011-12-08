@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-margin-top-collapse: ${1:collapse|discard|separate};</string>
+	<key>name</key>
+	<string>-webkit-margin-top-collapse</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmtcollapse</string>
+	<key>uuid</key>
+	<string>455D556B-7BF6-44B2-A192-4727E8D2D157</string>
+</dict>
+</plist>

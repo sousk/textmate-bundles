@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-origin: ${1:baseline|center|end|start|stretch};</string>
+	<key>name</key>
+	<string>-webkit-box-origin</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkboxorigin</string>
+	<key>uuid</key>
+	<string>0DF44F8D-A332-4D56-BECF-DF71B747E778</string>
+</dict>
+</plist>

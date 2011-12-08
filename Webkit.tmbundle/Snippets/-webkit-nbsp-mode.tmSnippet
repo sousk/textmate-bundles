@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-nbsp-mode: ${1:normal|space};	</string>
+	<key>name</key>
+	<string>-webkit-nbsp-mode</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wknbspmode</string>
+	<key>uuid</key>
+	<string>99957CAB-B86A-4C31-AB6B-5D1DC068B14E</string>
+</dict>
+</plist>

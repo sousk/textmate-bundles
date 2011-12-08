@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>var $1 = '';
+var $2 = '';
+ 
+db.transaction(
+    function (transaction) {
+        transaction.executeSql("UPDATE ${1:tag} set ${2:tag}=? where  ${1:tag}=?;",
+            [ ${1:tag}, ${2:tag} ]); // array of values for the ? placeholders
+    }
+);</string>
+	<key>name</key>
+	<string>Query</string>
+	<key>scope</key>
+	<string>source.js, source.js.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>query</string>
+	<key>uuid</key>
+	<string>20BC45E8-7045-43BE-824C-B6F71976A597</string>
+</dict>
+</plist>

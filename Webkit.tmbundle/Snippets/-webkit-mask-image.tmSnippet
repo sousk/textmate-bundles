@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-mask-image: url($1);</string>
+	<key>name</key>
+	<string>-webkit-mask-image</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmaskimg</string>
+	<key>uuid</key>
+	<string>CA9FA04E-48EF-4628-9946-1243424A0124</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-marquee-speed: ${1:speed|distance/time|fast|normal|slow};</string>
+	<key>name</key>
+	<string>-webkit-marquee-speed</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmarqueespeed</string>
+	<key>uuid</key>
+	<string>CC252234-B5F4-46B2-A2F1-19F8B497FF89</string>
+</dict>
+</plist>

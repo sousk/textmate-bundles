@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-rtl-ordering: ${1:logical|visual};</string>
+	<key>name</key>
+	<string>-webkit-rtl-ordering</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkrtlorder</string>
+	<key>uuid</key>
+	<string>F76013A1-18FA-4592-9520-C552B2AB85CE</string>
+</dict>
+</plist>

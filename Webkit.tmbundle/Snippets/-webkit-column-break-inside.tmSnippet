@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-break-inside: ${1:auto|avoid};</string>
+	<key>name</key>
+	<string>-webkit-column-break-inside</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkcolbreakinside</string>
+	<key>uuid</key>
+	<string>B9B8F031-8796-40CC-B634-3DDF003E767D</string>
+</dict>
+</plist>

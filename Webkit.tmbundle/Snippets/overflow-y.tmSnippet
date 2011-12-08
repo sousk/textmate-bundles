@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>overflow-y: ${1:auto|hidden|overlay|scroll|visible|-webkit-marquee};</string>
+	<key>name</key>
+	<string>overflow-y</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>ofy</string>
+	<key>uuid</key>
+	<string>6B1A2363-E700-4064-A178-E2652BE00D5D</string>
+</dict>
+</plist>

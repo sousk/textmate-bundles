@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta name="apple-mobile-web-app-capable" content="${1:yes}"${TM_XHTML}&gt;</string>
+	<key>name</key>
+	<string>-touch-mobile-web-app-capable</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>webapp</string>
+	<key>uuid</key>
+	<string>02324277-5330-4166-8B10-89FBE1A5F29C</string>
+</dict>
+</plist>

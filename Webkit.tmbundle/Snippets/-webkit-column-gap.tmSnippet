@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-gap: ${1:normal|length_value};</string>
+	<key>name</key>
+	<string>-webkit-column-gap</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkcolgap</string>
+	<key>uuid</key>
+	<string>1A7414B8-85F2-4B6C-91D8-2B60C4BF4BC1</string>
+</dict>
+</plist>

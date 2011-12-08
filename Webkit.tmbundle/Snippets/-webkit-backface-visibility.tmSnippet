@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-backface-visibility: ${1:visible|hidden};</string>
+	<key>name</key>
+	<string>-webkit-backface-visibility</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkbackface</string>
+	<key>uuid</key>
+	<string>A99B73EC-CD2B-4A29-B1F5-08B79B41C278</string>
+</dict>
+</plist>

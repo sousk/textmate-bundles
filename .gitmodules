@@ -193,9 +193,9 @@
 [submodule "coffee-script.tmbundle"]
 	path = coffee-script.tmbundle
 	url = https://github.com/jashkenas/coffee-script-tmbundle.git
-[submodule "jshint.tmbundle"]
-	path = jshint.tmbundle
-	url = https://github.com/dandean/jshint.tmbundle.git
 [submodule "jsdoctoolkit.tmbundle"]
 	path = jsdoctoolkit.tmbundle
 	url = https://github.com/he8us/jsdoctoolkit.tmbundle.git
+[submodule "javascript-node.tmbundle"]
+	path = javascript-node.tmbundle
+	url = https://github.com/drnic/javascript-node.tmbundle.git

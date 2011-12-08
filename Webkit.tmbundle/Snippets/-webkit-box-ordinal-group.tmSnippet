@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-ordinal-group: ${1:group_number};</string>
+	<key>name</key>
+	<string>-webkit-box-ordinal-group</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkboxordinalgrp</string>
+	<key>uuid</key>
+	<string>6373B219-B713-4033-8EE2-4E27607F3CC6</string>
+</dict>
+</plist>

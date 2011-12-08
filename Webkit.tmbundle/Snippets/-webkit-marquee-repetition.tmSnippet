@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-marquee-repetition: ${1:infinite|some_non_negative_integer_value};</string>
+	<key>name</key>
+	<string>-webkit-marquee-repetition</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmarqueerepetition</string>
+	<key>uuid</key>
+	<string>B03D9626-7A79-46BF-9807-9F313C05E828</string>
+</dict>
+</plist>

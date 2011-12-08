@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-marquee-direction: ${1:ahead|auto|backwards|down|forward|left|reverse|right|up};</string>
+	<key>name</key>
+	<string>-webkit-marquee-direction</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmarqueedirection</string>
+	<key>uuid</key>
+	<string>DC8F72C2-377A-4E2A-985E-8686FA007E21</string>
+</dict>
+</plist>

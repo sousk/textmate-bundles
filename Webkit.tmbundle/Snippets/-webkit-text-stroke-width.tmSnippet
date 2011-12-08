@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-text-stroke-width: ${1:0px};</string>
+	<key>name</key>
+	<string>-webkit-text-stroke-width</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wktextstrokewidth</string>
+	<key>uuid</key>
+	<string>0F456B05-9BCF-4CEA-9A2F-23BF8FCF254F</string>
+</dict>
+</plist>

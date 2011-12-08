@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-user-modify: ${1:read-only|read-write|read-write-plaintext-only};</string>
+	<key>name</key>
+	<string>-webkit-user-modify</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkusermodify</string>
+	<key>uuid</key>
+	<string>2233BEF4-A51F-410C-9B2C-E66B4F7A3EE4</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-margin-start: ${1:0|auto};</string>
+	<key>name</key>
+	<string>-webkit-margin-start</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkmstart</string>
+	<key>uuid</key>
+	<string>2AB30CB1-9575-417D-AAC2-39177ACD86BB</string>
+</dict>
+</plist>

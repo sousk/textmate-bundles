@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-box-flex: ${1:floating_point_number};</string>
+	<key>name</key>
+	<string>-webkit-box-flex</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkboxflex</string>
+	<key>uuid</key>
+	<string>7F369EAD-902D-4CE5-973C-EB142D2E7787</string>
+</dict>
+</plist>

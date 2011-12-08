@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-tap-highlight-color: ${1:#000};</string>
+	<key>name</key>
+	<string>-webkit-tap-highlight-color</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wktaphlcolor</string>
+	<key>uuid</key>
+	<string>10131811-C7E6-4ACB-8B94-071BAB49A2FD</string>
+</dict>
+</plist>

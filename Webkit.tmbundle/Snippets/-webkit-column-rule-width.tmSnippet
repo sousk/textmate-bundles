@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-rule-width: ${1:medium|thick|thin|length_values};</string>
+	<key>name</key>
+	<string>-webkit-column-rule-width</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkcolrulewidth</string>
+	<key>uuid</key>
+	<string>308D1131-3BF9-4835-BE6B-74FEC66AB962</string>
+</dict>
+</plist>

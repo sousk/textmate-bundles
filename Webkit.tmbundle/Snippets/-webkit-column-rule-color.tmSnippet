@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-column-rule-color: ${1:activeborder|activecaption|appworkspace|aqua|background|black|blue|buttonface|buttonhighlight|buttonshadow|buttontext|captiontext|fuchsia|gray|graytext|green|grey|highlight|highlighttext|inactiveborder|inactivecaption|inactivecaptiontext|infobackground|infotext|lime|maroon|match|menu|menutext|navy|olive|orange|purple|red|scrollbar|silver|teal|threeddarkshadow|threedface|threedhighlight|threedlightshadow|threedshadow|transparent|-webkit-activelink|-webkit-focus-ring-color|-webkit-link|-webkit-text|white|window|windowframe|windowtext|yellow};</string>
+	<key>name</key>
+	<string>-webkit-column-rule-color</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkcolrulecolor</string>
+	<key>uuid</key>
+	<string>3A8F6D5C-634A-42E3-B242-53510B704EBB</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-background-composite: ${1:border|padding|none};</string>
+	<key>name</key>
+	<string>-webkit-background-composite</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkbgcomposite</string>
+	<key>uuid</key>
+	<string>49CF6301-846D-4B24-A2B2-5B9B3E6FA980</string>
+</dict>
+</plist>

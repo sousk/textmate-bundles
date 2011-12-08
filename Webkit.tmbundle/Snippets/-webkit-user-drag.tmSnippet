@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-user-drag: ${1:auto|element|none};</string>
+	<key>name</key>
+	<string>-webkit-user-drag</string>
+	<key>scope</key>
+	<string>source.css, source.css.embedded.html</string>
+	<key>tabTrigger</key>
+	<string>wkuserdrag</string>
+	<key>uuid</key>
+	<string>7B0B7D49-E061-4DE7-BDEF-D217F8FBC769</string>
+</dict>
+</plist>
