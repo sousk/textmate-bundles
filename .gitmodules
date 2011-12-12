@@ -199,3 +199,6 @@
 [submodule "javascript-node.tmbundle"]
 	path = javascript-node.tmbundle
 	url = https://github.com/drnic/javascript-node.tmbundle.git
+[submodule "jshint.tmbundle"]
+	path = jshint.tmbundle
+	url = https://github.com/fgnass/jshint.tmbundle.git
