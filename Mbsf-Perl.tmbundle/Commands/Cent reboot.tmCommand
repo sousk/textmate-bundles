@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>#!/usr/bin/env ruby
-cmd = ENV['CMD_HTTPD_RESTART'] || "service httpd restart"
+cmd = ENV['CMD_HTTPD_RESTART'] || "/usr/local/apache/bin/apachectl restart"
 host = ENV['REMOTE_SSH_NAME'] || 'gwdev045'
 
 puts "reboot HTTPd on #{host} :: #{cmd}"

@@ -118,9 +118,6 @@
 [submodule "Ruby Haml.tmbundle"]
 	path = Ruby Haml.tmbundle
 	url = git://github.com/textmate/ruby-haml.tmbundle.git
-[submodule "Ruby RSpec.tmbundle"]
-	path = Ruby RSpec.tmbundle
-	url = git://github.com/textmate/ruby-rspec.tmbundle.git
 [submodule "Ruby.tmbundle"]
 	path = Ruby.tmbundle
 	url = git://github.com/textmate/ruby.tmbundle.git
@@ -175,9 +172,6 @@
 [submodule "Mustache.tmbundle"]
 	path = Mustache.tmbundle
 	url = git://github.com/tekkub/Mustache.tmbundle.git
-[submodule "Ruby Sass.tmbundle"]
-	path = Ruby Sass.tmbundle
-	url = git://github.com/charlesr/ruby-sass-tmbundle.git
 [submodule "Gists.tmbundle"]
 	path = Gists.tmbundle
 	url = git://github.com/ivanvc/gists-tmbundle.git
@@ -202,3 +196,6 @@
 [submodule "jshint.tmbundle"]
 	path = jshint.tmbundle
 	url = https://github.com/fgnass/jshint.tmbundle.git
+[submodule "restructuredtext.tmbundle"]
+	path = restructuredtext.tmbundle
+	url = https://github.com/textmate/restructuredtext.tmbundle.git
