@@ -202,3 +202,6 @@
 [submodule "Buster.tmbundle"]
 	path = Buster.tmbundle
 	url = git://github.com/magnars/buster.tmbundle.git
+[submodule "SASS.tmbundle"]
+	path = SASS.tmbundle
+	url = https://github.com/alexsancho/SASS.tmbundle.git
